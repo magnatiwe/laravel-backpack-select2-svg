@@ -1,0 +1,47 @@
+{
+  "name": "magnatiwe/laravel-backpack-select2-svg",
+  "type": "library",
+  "description": "Select2 for picking inline svg icons in backpack admin panel.",
+  "keywords": [
+    "magnatiwe",
+    "laravel-backpack-select2-svg",
+    "backpack",
+    "svg"
+  ],
+  "homepage": "https://github.com/magnatiwe/laravel-backpack-select2-svg",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Roman Lozovikov",
+      "email": "lozovikov.ra@gmail.com"
+    }
+  ],
+  "require": {
+    "illuminate/support": "~5.5.0|~5.6.0|~5.7.0|~5.8.0|^6.0",
+    "illuminate/database": "~5.5.0|~5.6.0|~5.7.0|~5.8.0|^6.0",
+    "php" : "~7.2",
+    "meyfa/php-svg": "^0.9.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "Magnatiwe\\Laravel\\Backpack\\SelectSvgField\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+    }
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "1.0-dev"
+    },
+    "laravel": {
+      "providers": [
+        "Magnatiwe\\Laravel\\Backpack\\SelectSvgField\\SelectSvgFieldServiceProvider"
+      ]
+    }
+  },
+  "config": {
+    "sort-packages": true
+  }
+}
