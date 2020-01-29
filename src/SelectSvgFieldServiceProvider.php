@@ -17,7 +17,7 @@ class SelectSvgFieldServiceProvider extends ServiceProvider
 //        $this->loadViewsFrom(realpath(__DIR__ . '/../resources/views'), 'webfactor');
 
         // publish fields
-        $this->publishes([__DIR__ . 'resources/views' => resource_path('views/vendor/backpack/crud/fields')], 'select2_svg.blade.php');
+        $this->publishes([__DIR__ . '/resources/views' => resource_path('views/vendor/backpack/crud/fields')], 'select2_svg.blade.php');
     }
 
 }
