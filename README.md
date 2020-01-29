@@ -1,5 +1,6 @@
 # laravel-backpack-select2-svg
 Select2 for picking inline svg icons in backpack admin panel.
+![](screenshot.jpg) 
 ## Installation
 > Publish view \
 `php artisan vendor:publish --provider="Magnatiwe\Laravel\Backpack\SelectSvgField\SelectSvgFieldServiceProvider"`
